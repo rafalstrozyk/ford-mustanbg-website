@@ -56,6 +56,24 @@
 
     }
 
+    &--white {
+        color: $color-secondary-dark;
+        background-color: $color-grey-light-2;
+
+        &::after {
+            background-color: $color-secondary-dark;
+        }
+    }
+
+    &--blue {
+        color: $color-grey-light-2;
+        background-color: $color-primary;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
     &--animated {
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
